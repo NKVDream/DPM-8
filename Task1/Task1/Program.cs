@@ -1,32 +1,33 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 class Task1
 {
     static void Main()
     {
         Console.Write("write down anything:");string X = Console.ReadLine();
-        Task1.check(X);
+        Check(X);
     }
-    static bool check(string X)
+    static bool Check(string X)
     {
         string Firstword = "English";
-        string Fiend = "";
-        for (int i = 0; i < X.Length; i++)
+        int WordL = X.Length;
+        int WordL2 = Firstword.Length;
+        int AllWord = WordL - WordL2;
+        if (AllWord < 0 ) return false;
+        for (int i = 0; i <= X.Length - WordL2; i++)
         {
-            Console.Write(X[i]);
-            if (X[i] == 'E')
+            // Проверяем, совпадает ли подстрока с targetWord
+            bool match = true;
+            for (int j = 0; j < WordL2; j++)
             {
-                Fiend += X[i];
-                continue;
+                if (X[i + j] != Firstword[j])
+                {
+                    match = false;
+                    break;
+                }
             }
-            if (X[i] == 'n')
-            {
-                Fiend += X[i];
-                continue;
-            }
-            if (Fiend = "En")
-            {
-                return true;
-            }
+            string Fiend = "";
         }
+
     }
 }
