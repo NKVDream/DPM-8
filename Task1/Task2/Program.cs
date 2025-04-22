@@ -3,6 +3,7 @@ class Task2
 {
     static void Main()
     {
-
+        
     }
+
 }
