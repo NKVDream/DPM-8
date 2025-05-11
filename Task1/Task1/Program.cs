@@ -1,33 +1,26 @@
 ﻿using System;
+using static System.Net.Mime.MediaTypeNames;
 using System.Text.RegularExpressions;
 class Task1
 {
     static void Main()
     {
-        Console.Write("write down anything:");string X = Console.ReadLine();
-        Check(X);
+        Console.Write("Write down a line: "); string Line = Console.ReadLine();
+        bool result;
+        Task1.Checking(Line, out result);
+        Console.WriteLine(result);
     }
-    static bool Check(string X)
+    static bool Checking(string line, out bool result)
     {
-        string Firstword = "English";
-        int WordL = X.Length;
-        int WordL2 = Firstword.Length;
-        int AllWord = WordL - WordL2;
-        if (AllWord < 0 ) return false;
-        for (int i = 0; i <= X.Length - WordL2; i++)
+        result = Regex.IsMatch(line, "English");
+        if (result)
         {
-            // Проверяем, совпадает ли подстрока с targetWord
-            bool match = true;
-            for (int j = 0; j < WordL2; j++)
-            {
-                if (X[i + j] != Firstword[j])
-                {
-                    match = false;
-                    break;
-                }
-            }
-            string Fiend = "";
+            result = true;
+            return true;
         }
-
+        else
+        {
+            return false;
+        }
     }
 }
