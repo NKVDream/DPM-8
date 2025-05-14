@@ -9,7 +9,6 @@ class Task6
     }
     static string TXT(string x)
     {
-        // Заменяем символы
         x = x.Replace('5', 'S');
         x = x.Replace('0', 'O');
         x = x.Replace('1', 'I');

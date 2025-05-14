@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E18F30F4-872F-40E1-8797-70722DAAF555}|Task7\\Task7.csproj|c:\\users\\kmv23\\desktop\\dpm\\dpm-8\\task1\\task7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18F30F4-872F-40E1-8797-70722DAAF555}|Task7\\Task7.csproj|solutionrelative:task7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{090B3CED-99FD-4165-B18A-9F696886F652}|Task6\\Task6.csproj|c:\\users\\kmv23\\desktop\\dpm\\dpm-8\\task1\\task6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{090B3CED-99FD-4165-B18A-9F696886F652}|Task6\\Task6.csproj|solutionrelative:task6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -40,18 +44,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task7\\Program.cs",
+              "RelativeDocumentMoniker": "Task7\\Program.cs",
+              "ToolTip": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task7\\Program.cs",
+              "RelativeToolTip": "Task7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:16:50.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task6\\Program.cs",
               "RelativeDocumentMoniker": "Task6\\Program.cs",
               "ToolTip": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task6\\Program.cs",
               "RelativeToolTip": "Task6\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:41:14.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task5\\Program.cs",
               "RelativeDocumentMoniker": "Task5\\Program.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "Task5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:48:54.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T12:48:54.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task4\\Program.cs",
               "RelativeDocumentMoniker": "Task4\\Program.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task3\\Program.cs",
               "RelativeDocumentMoniker": "Task3\\Program.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task2\\Program.cs",
               "RelativeDocumentMoniker": "Task2\\Program.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kmv23\\Desktop\\DPM\\DPM-8\\Task1\\Task1\\Program.cs",
               "RelativeDocumentMoniker": "Task1\\Program.cs",
