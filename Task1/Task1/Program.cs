@@ -5,7 +5,8 @@ class Task1
 {
     static void Main()
     {
-        Console.Write("Write down a line: "); string Line = Console.ReadLine();
+        Console.Write("Write down a line: ");
+        string Line = Console.ReadLine();
         bool result;
         Task1.Checking(Line, out result);
         Console.WriteLine(result);
